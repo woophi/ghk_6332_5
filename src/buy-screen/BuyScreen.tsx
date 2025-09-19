@@ -146,7 +146,7 @@ export const BuyScreen = ({ stockItem, bot, setThx }: Props) => {
               if (botConnected) {
                 setBotConnected(false);
               } else {
-                window.gtag('event', '6332_bot_activate', { ticker: stockItem.ticker, var: 'var3', bot: bot.name });
+                window.gtag('event', '6332_bot_activate', { ticker: stockItem.ticker, var: 'var5', bot: bot.name });
                 setShowLevels(true);
               }
             }}
